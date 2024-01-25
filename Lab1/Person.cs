@@ -29,11 +29,11 @@ namespace Lab1
         //methods
         public void DisplayPersonInfo(Person p)
         {
-            Console.WriteLine(p.firstName p.lastName);
+            Console.WriteLine($"{p.id}, {p.firstName} {p.lastName}, they are {p.age} years old and their favourite colour is {p.favouriteColour}.");
         }
         public void PersonId(Person p)
         {
-            Console.WriteLine(p.id);
+            Console.WriteLine($"{p.firstName}'s favourite colour is {p.favouriteColour}.");
         }
         public void ChangeFavouritColour(string newColour)
         {
@@ -41,11 +41,17 @@ namespace Lab1
         }
         public void GetAgeInTenYears(Person p)
         {
-            Console.Write(p.age + 10);
+            int newAge = p.age + 10; // set new age to be printed
+            Console.WriteLine($"{p.firstName}'s age in 10 years will be {newAge}.");
         }
         public void ToString(Person p) //display all information as a list
         {
-            Console.WriteLine();
+            Console.WriteLine($"\nID: {p.id} " +
+                $"\nFirst Name: {p.firstName} " +
+                $"\nLast Name: {p.lastName} " +
+                $"\nAge: {p.age} " +
+                $"\nFavourite Colour: {p.favouriteColour} " +
+                $"\nWorking: {p.isWorking}");
         }
      }
 }

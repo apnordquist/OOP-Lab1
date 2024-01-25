@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\apnor\\CPRG211\\Lab1\\Lab1\\Lab1.csproj": {}
+    "C:\\Users\\apnor\\CPRG211\\Lab1\\OOP-Lab1\\Lab1\\Lab1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\apnor\\CPRG211\\Lab1\\Lab1\\Lab1.csproj": {
+    "C:\\Users\\apnor\\CPRG211\\Lab1\\OOP-Lab1\\Lab1\\Lab1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\apnor\\CPRG211\\Lab1\\Lab1\\Lab1.csproj",
+        "projectUniqueName": "C:\\Users\\apnor\\CPRG211\\Lab1\\OOP-Lab1\\Lab1\\Lab1.csproj",
         "projectName": "Lab1",
-        "projectPath": "C:\\Users\\apnor\\CPRG211\\Lab1\\Lab1\\Lab1.csproj",
+        "projectPath": "C:\\Users\\apnor\\CPRG211\\Lab1\\OOP-Lab1\\Lab1\\Lab1.csproj",
         "packagesPath": "C:\\Users\\apnor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\apnor\\CPRG211\\Lab1\\Lab1\\obj\\",
+        "outputPath": "C:\\Users\\apnor\\CPRG211\\Lab1\\OOP-Lab1\\Lab1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
